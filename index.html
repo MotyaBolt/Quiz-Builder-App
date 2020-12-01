@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizBuilder</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body onload="countQuest()">
+        <header id="header">
+            <div id="header-content">
+                <h1>Build your own quiz!</h1>
+                <a id="save" href="index.html">Create new quiz</a>
+            </div>
+        </header>
+        <div id="main-qz">
+            <div id="quiz-box">
+                    <div id="question-block">
+                        <h2 class="input-name"><span class="number-act">1</span>Create a question</h2>
+                        <input id="question" placeholder="Your question..." class="quiz-input-question">
+                    </div>
+                    <div id="answers-block">
+                    <h2 id="ans-lab" class="input-name"><span class="number-act">2</span>Write answers</h2>
+                    <p id="cor">Correct answer</p>
+                    <input  id="answer"  class="quiz-input">
+                    <p class="inc">Incorrect answer</p>
+                    <input  class="quiz-input">
+                    <p class="inc">Incorrect answer</p>
+                    <input  class="quiz-input">
+                    <p class="inc">Incorrect answer</p>
+                    <input  class="quiz-input">
+                    </div>
+                <div id="control-block">
+                    <p id="current-questions"></p>
+                    <button class="control-after" id="add-button">Add question</button>
+                    <button class="control-after" id="save-quiz">Show quiz</button>
+                </div>
+                <p id="warning-text"></p>
+            </div>
+            <div id="result-box">
+                <h2 id="result-question"></h2>
+                <form id="my-quiz"></form>
+                <div id="next-btn"></div>
+            </div>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
