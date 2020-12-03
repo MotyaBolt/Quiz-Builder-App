@@ -144,6 +144,3 @@ showCurrentQuizBtn.addEventListener('click', showQuiz);
 const countQuest = () => {
     currentQuestionsCount.innerHTML = "Your quiz has " + `${count}` + " questions";
 }
-window.addEventListener("storage", () => {
-    localStorage.setItem('quiz', )
-})
