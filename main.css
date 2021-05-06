@@ -1,231 +1,233 @@
 #main-qz {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 a {
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0px;
-    display: block;
-    background-color: aqua;
-    padding: 10px;
-    
-    border: 1px solid black;
-    color: black;
-    background-color: white;
-    transition: all 0.4s ease;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px;
+  display: block;
+  background-color: aqua;
+  padding: 10px;
+
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  transition: all 0.4s ease;
 }
 a:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .label-input {
-    cursor: pointer;
+  cursor: pointer;
 }
 #next-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 #header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 190px;
-    top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 190px;
+  top: 0;
 }
 h1 {
-    margin: 0px;
-    font-size: 40px;
-    margin-bottom: 30px;
-    display: block;
-    padding-top: 30px;
+  margin: 0px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  display: block;
+  padding-top: 30px;
 }
 body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 #quiz-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    padding-top: 40px;
-    width: 800px;
-    height: 920px;
-    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 40px;
+  width: 800px;
+  height: 920px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .input-name {
-    font-size: 30px;
+  font-size: 30px;
 }
 span {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 12px;
-    padding-right: 12px;
-    background-color: white;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid rgb(84, 82, 214);
-    color:  rgb(84, 82, 214);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(84, 82, 214);
+  color: rgb(84, 82, 214);
 }
 #question {
-    border: none;
-    border-bottom: 3px solid  rgb(218, 217, 245);
-    width: 500px;
-    outline: none;
-    font-size: 23px;
-    margin-top: 20px;
-    transition: all 0.4s ease;
-    padding-bottom: 5px;
-    background-color:  white;
+  border: none;
+  border-bottom: 3px solid rgb(218, 217, 245);
+  width: 500px;
+  outline: none;
+  font-size: 23px;
+  margin-top: 20px;
+  transition: all 0.4s ease;
+  padding-bottom: 5px;
+  background-color: white;
 }
 #question:focus {
-    border-bottom: 3px solid  rgb(84, 82, 214);
+  border-bottom: 3px solid rgb(84, 82, 214);
 }
 #cor {
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 700;
 }
 .inc {
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 700;
 }
 .quiz-input {
-    border: none;
-    border-bottom: 3px solid  rgb(233, 192, 192);
-    width: 500px;
-    outline: none;
-    font-size: 23px;
-    transition: all 0.4s ease;
-    padding-bottom: 5px;
+  border: none;
+  border-bottom: 3px solid rgb(233, 192, 192);
+  width: 500px;
+  outline: none;
+  font-size: 23px;
+  transition: all 0.4s ease;
+  padding-bottom: 5px;
 }
 .quiz-input:focus {
-    border-bottom: 3px solid  rgb(201, 113, 113);
+  border-bottom: 3px solid rgb(201, 113, 113);
 }
 #ans-lab {
-    margin-top: 50px;
-    margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 #answer {
-    border-bottom: 3px solid rgb(190, 233, 190);
+  border-bottom: 3px solid rgb(190, 233, 190);
 }
 #answer:focus {
-    border-bottom: 3px solid rgb(105, 163, 105);
+  border-bottom: 3px solid rgb(105, 163, 105);
 }
 #current-questions {
-    margin-top: 50px;
-    font-size: 25px;
-    margin-bottom: 40px;
+  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 40px;
 }
 .control-after {
-    cursor: pointer;
-    outline: none;
-    background-color: white;
-    padding: 11px;
-    font-size: 20px;
-    border-radius: 25px;
-    font-weight: 100;
-    color: rgb(81, 87, 126);
-    border: 1px solid rgb(81, 87, 126);
-    transition: all 0.4s ease;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  padding: 11px;
+  font-size: 20px;
+  border-radius: 25px;
+  font-weight: 100;
+  color: rgb(81, 87, 126);
+  border: 1px solid rgb(81, 87, 126);
+  transition: all 0.4s ease;
 }
 .control-after:hover {
-    background-color: rgb(81, 87, 126);
-    color: white;
+  background-color: rgb(81, 87, 126);
+  color: white;
 }
 #add-button {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 #warning-text {
-    color: red;
-    margin-top: 30px;
+  color: red;
+  margin-top: 30px;
 }
 .result-box-after {
-    display: flex;
-    margin-top: 30px;
-    flex-direction: column;
-    width: 600px;
-    height: 380px;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 600px;
+  height: 380px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 #result-question {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 #my-quiz {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .flexInput {
-    display: flex;
-    margin-bottom: 10px;
-    font-size: 26px;
-    padding-left: 100px;
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 26px;
+  padding-left: 100px;
 }
 .label-input {
-    width: 25px;
-    height: 25px; 
+  width: 25px;
+  height: 25px;
 }
 .quiz-lab {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 #next-btn {
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
 }
 #next-button {
-    cursor: pointer;
-    outline: none;
-    background-color: white;
-    width: 120px;
-    height: 50px;
-    font-size: 25px;
-    color: rgb(70, 114, 92);
-    border: 1px solid rgb(70, 114, 92);
-    transition: all 0.4s ease;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  font-size: 25px;
+  color: rgb(70, 114, 92);
+  border: 1px solid rgb(70, 114, 92);
+  transition: all 0.4s ease;
 }
 #next-button:hover {
-    color: white;
-    background-color:  rgb(70, 114, 92);;
+  color: white;
+  background-color: rgb(70, 114, 92);
 }
 #end-M {
-    font-size: 35px;
+  font-size: 35px;
 }
 .end-result-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 510px) {
-    #quiz-box {
-        width: 320px;
-    }
-    h1 {
-        font-size: 30px;
-    }
-    #question {
-        width: 250px;
-    }
-    .quiz-input {
-        width: 250px;
-    }
-    #question-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  #quiz-box {
+    width: 320px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  #question {
+    width: 250px;
+  }
+  .quiz-input {
+    width: 250px;
+  }
+  #question-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
