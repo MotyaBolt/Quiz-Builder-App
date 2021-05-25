@@ -1,6 +1,7 @@
 ## Quiz-Builder App
 
-![Screenshot of app](./assets/quiz-builder-app-screenshot.png 'quiz-builder app')
+![App](http://g.recordit.co/LiDFGLn3LO.gif)
+
 
 ⬆️ <i>Appearance of the app</i>
 
