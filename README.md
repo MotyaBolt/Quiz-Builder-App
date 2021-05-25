@@ -1,12 +1,10 @@
 # Quiz-Builder App
 
-## [Live Demo](https://motyabolt.github.io/Quiz-Builder-App/)
-
-<br>
-
 ![Screenshot of app](./assets/quiz-builder-app-screenshot.png 'quiz-builder app')
 
 ⬆️ <i>Appearance of the app</i>
+
+## [Live Demo](https://motyabolt.github.io/Quiz-Builder-App/)
 
 <br>
 
