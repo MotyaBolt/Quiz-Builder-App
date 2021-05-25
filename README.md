@@ -6,8 +6,6 @@
 
 ## [Live Demo](https://motyabolt.github.io/Quiz-Builder-App/)
 
-<br>
-
 ## ✏️ Description
 
 App allows you to create simple quizes.
