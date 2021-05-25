@@ -1,4 +1,4 @@
-# Quiz-Builder App
+## Quiz-Builder App
 
 ![Screenshot of app](./assets/quiz-builder-app-screenshot.png 'quiz-builder app')
 
