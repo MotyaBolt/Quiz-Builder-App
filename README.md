@@ -4,7 +4,7 @@
 
 ⬆️ <i>Appearance of the app</i>
 
-## [Live Demo](https://motyabolt.github.io/Quiz-Builder-App/)
+### [Live Demo](https://motyabolt.github.io/Quiz-Builder-App/)
 
 ## ✏️ Description
 
